@@ -48,7 +48,7 @@ h1 {
 #logo {
     width: 70vw;
     margin: auto;
-    margin-top: 4vw;
+    margin-top: 2vw;
 }
 
 #menu {
@@ -109,6 +109,7 @@ nav {
     background-size: cover;
     background-image: url(billeder/Screen-16.jpg);
     padding: 4vw;
+
 
 
 }
@@ -383,6 +384,8 @@ footer img {
         align-items: center;
 
 
+
+
     }
 
     #menu a {
@@ -426,11 +429,6 @@ footer img {
         display: inline-block;
     }
 
-    #menu {
-        list-style-type: none;
-        transition: transform .3s;
-        transform-origin: top left;
-    }
 
 
     #menuknap {
@@ -501,28 +499,33 @@ footer img {
         top: 17vw;
     }
 
-    #logo {
-        width: 35vw;
-        margin-top: 2vw;
+    #cover_billede {
+
+        padding: 2vw;
+        padding-top: 1vw;
+        height: 8vw;
+        display: flex;
+        align-items: center;
+
     }
 
-    /*
-#cover_billede {
-    max-height: 80px;
+    #logo {
+        width: 26vw;
+        margin-top: 0vw;
+    }
 
 }
 
-#cover_billede .overskrift {
-    position: relative;
-    top: -1.4vw;
-
+@media only screen and (min-width: 900px) {
+    #ui img {
+        width: 6vw;
+    }
 }
 
-#cover_billede .overskrift {
-    padding: 4vw;
-    padding-top: 2vw;
-    padding-bottom: 2vw;
-}
-*/
+@media only screen and (min-width: 1100px) {
+    #ui img {
+        width: 4vw;
 
+
+    }
 }
