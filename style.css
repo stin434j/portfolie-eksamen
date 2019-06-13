@@ -313,9 +313,65 @@ span:after {
 
 }
 
+#ux {
+    background-color: #15647A;
+    padding-top: 2vw;
+}
+
+#ux h1 {
+    color: white;
+}
+
+#ux .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+#ux .col {
+    flex-grow: 1;
+    display: flex;
+    flex-basis: 300px;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    padding-top: 0vw;
+
+}
 
 
 
+
+#ui img {
+    width: 8vw;
+}
+
+#ui {
+    background-color: #403833;
+    display: flex;
+    justify-content: space-around;
+    padding: 2vw;
+    padding-left: 7vw;
+    padding-right: 7vw;
+    padding-top: 5vw;
+}
+
+
+
+footer {
+    background-color: #403833;
+    display: flex;
+    justify-content: center;
+}
+
+footer img {
+    width: 40vw;
+
+
+}
 
 @media only screen and (min-width: 600px) {
 
