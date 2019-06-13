@@ -1,0 +1,472 @@
+body {
+    margin: 0;
+
+}
+
+
+img {
+    width: 100%;
+}
+
+.txt {
+    margin-right: 5vw;
+    margin-left: 5vw;
+}
+
+a {
+    font-family: 'Noto Serif KR', serif
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+#forside .foride_billede {
+    background-image: url(billeder/forsidebillede_mobil.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    max-width: none;
+    max-height: 160vw;
+
+
+}
+
+#forside .forside_knap {
+
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    background-size: 270px 100px;
+    position: absolute;
+    top: 52vw;
+
+}
+
+
+#logo {
+    width: 70vw;
+    margin: auto;
+    margin-top: 4vw;
+}
+
+#menu {
+    background-color: #15647A;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+#menu a {
+    color: white;
+    text-decoration: none;
+    padding: 2vw;
+    font-size: 1.4rem;
+    width: 100%;
+    padding-top: 3vw;
+    padding-bottom: 6vw;
+    white-space: nowrap;
+
+
+
+}
+
+nav {
+    background-color: rgb(21, 100, 122);
+
+}
+
+.hidden {
+    /*    display: none;*/
+    /*    transform: scale(0);*/
+    transform: translateX(-100%);
+    opacity: 0;
+}
+
+#menuknap {
+    display: inline-block;
+    display: flex;
+    color: white;
+    margin-left: 2vw;
+    padding: 1.5vw;
+    font-size: 2rem;
+
+
+
+}
+
+#menu {
+    list-style-type: none;
+    transition: transform .3s;
+    transform-origin: top left;
+    position: absolute;
+}
+
+#cover_billede {
+    background-size: cover;
+    background-image: url(billeder/Screen-16.jpg);
+    padding: 4vw;
+
+
+}
+
+#cover_billede .overskrift {
+    color: #15647A;
+
+
+}
+
+#genvej {
+    background-color: #15647A;
+}
+
+.boks1 {
+    background-image: url(billeder/Udklip.PNG);
+    border: 6px solid #799EAC;
+    width: 70vw;
+    height: 70vw;
+    margin: auto;
+    margin-bottom: 13vw;
+    margin-top: 9vw;
+    text-align: center;
+
+}
+
+
+
+.titelboks1 {
+    background-color: #FD874A;
+    width: 29vw;
+    height: 12vw;
+    color: white;
+    font-size: 1.3rem;
+    position: relative;
+    top: 57vw;
+    margin: auto;
+}
+
+.boks2 {
+    background-color: white;
+    border: 6px solid #799EAC;
+    width: 70vw;
+    height: 70vw;
+    margin: auto;
+    margin-bottom: 13vw;
+    text-align: center;
+
+}
+
+.titelboks2 {
+    background-color: #FD874A;
+    width: 35vw;
+    height: 12vw;
+    color: white;
+    font-size: 1rem;
+    position: relative;
+    top: 57vw;
+    margin: auto;
+}
+
+.boks3 {
+    background-color: white;
+    border: 6px solid #799EAC;
+    width: 70vw;
+    height: 70vw;
+    margin: auto;
+    margin-bottom: 13vw;
+    text-align: center;
+
+}
+
+.boks4 {
+    background-color: white;
+    border: 6px solid #799EAC;
+    width: 70vw;
+    height: 70vw;
+    margin: auto;
+    margin-bottom: 13vw;
+    text-align: center;
+
+
+}
+
+#genvej .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#genvej .col {
+    flex-grow: 1;
+    display: flex;
+    flex-basis: 200px;
+    flex-direction: column;
+
+
+}
+
+
+
+#om {
+    background-color: #15647A;
+    padding-top: 3vw;
+}
+
+#om .image {
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+
+#om h1 {
+    color: white;
+
+}
+
+
+#om p {
+    color: white;
+}
+
+#om,
+h1 {
+    padding-top: 2vw;
+
+}
+
+
+
+
+#cv_afsnit {
+    background-color: #FD874A;
+}
+
+#box {
+    background-color: white;
+    position: relative;
+    padding: 15px 10px 20px;
+    border: 5px solid #15647A;
+    margin: 2vw;
+
+}
+
+#box.lille {
+    overflow: hidden;
+    max-height: 150px;
+    transition: max-height 0.5s ease-out;
+}
+
+#box.stor {
+    max-height: 3000px;
+    transition: max-height 1s ease-in;
+}
+
+
+/*Laver indhold vha css*/
+#box.lille span:after {
+    content: "+";
+}
+
+span:after {
+    content: "-";
+}
+
+
+#mere .plus {
+    /*    for at få den nærmere på bunden*/
+    margin-top: 40px;
+
+    /*    for at undgå at den opfører sit som et blockelement, og fylder hele bredden. */
+    /*    Derved sikrer jeg at jeg kan bruge parrent text-align: center */
+    display: inline-block;
+
+    /*    selve plussets farve og størrelse samt baggrund*/
+    color: white;
+    font-weight: 800;
+    width: 20px;
+    height: 20px;
+    background: #15647A;
+}
+
+
+.gult_overlay {
+    /* for at få gradientbaggrunden til at fylde*/
+    height: 60px;
+    margin: 0;
+
+    /* for at placere gradientbaggrunden i bunden */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    /*    For at sikre at den fylder hele sin parent ud i bredden*/
+    width: 100%;
+
+    /*    selve gradienten*/
+    background: linear-gradient(rgba(255, 255, 255, 0), rgb(000, 000, 0));
+    background: linear-gradient(rgba(255, 255, 255, 0), rgb(255, 255, 255));
+
+    /*    for at placere plusset i midten*/
+    text-align: center;
+
+}
+
+
+
+
+
+@media only screen and (min-width: 600px) {
+
+    #menu {
+
+        height: 3vw;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+
+    }
+
+    #menu a {
+        color: white;
+        text-decoration: none;
+        font-size: 1.5rem;
+        width: 100%;
+        padding-top: 0vw;
+        padding-bottom: 0vw;
+        text-align: center;
+
+
+
+
+    }
+
+    nav {
+
+        height: 3vw;
+
+
+
+    }
+
+    #menu a:hover {
+        color: #15647A;
+        background-color: #FD874A;
+        height: 3vw;
+        padding-top: 1.5vw;
+        justify-content: center;
+    }
+
+    .hidden {
+        /*    display: none;*/
+        /*    transform: scale(0);*/
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+
+    #menuknap {
+        display: inline-block;
+    }
+
+    #menu {
+        list-style-type: none;
+        transition: transform .3s;
+        transform-origin: top left;
+    }
+
+
+    #menuknap {
+        display: none;
+    }
+
+    #menu.hidden {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    #menu li {
+        display: inline-block;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    #forside .foride_billede {
+
+        background-image: url(billeder/forsidebillede.jpg);
+        width: 100vw;
+        height: 100vh;
+        background-size: 100%;
+        max-width: none;
+        max-height: 60vw;
+    }
+
+
+    .boks1 {
+        width: 20vw;
+        height: 20vw;
+        margin-top: 2vw;
+
+
+    }
+
+    .boks2 {
+        width: 20vw;
+        height: 20vw;
+
+
+    }
+
+    .boks3 {
+        width: 20vw;
+        height: 20vw;
+    }
+
+    .boks4 {
+        width: 20vw;
+        height: 20vw;
+
+    }
+
+    .titelboks1 {
+        width: 13vw;
+        height: 4vw;
+        font-size: 1.3rem;
+        position: relative;
+        top: 17vw;
+    }
+
+    .titelboks2 {
+        width: 19vw;
+        height: 4vw;
+        font-size: 1.3rem;
+        position: relative;
+        top: 17vw;
+    }
+
+    #logo {
+        width: 35vw;
+        margin-top: 2vw;
+    }
+
+    /*
+#cover_billede {
+    max-height: 80px;
+
+}
+
+#cover_billede .overskrift {
+    position: relative;
+    top: -1.4vw;
+
+}
+
+#cover_billede .overskrift {
+    padding: 4vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+}
+*/
+
+}

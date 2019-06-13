@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="348.5" height="112.512" viewBox="0 0 348.5 112.512">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="348.5" height="112.512" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="forside_knap" clip-path="url(#clip-path)">
+    <g id="Rectangle_1494" data-name="Rectangle 1494" fill="#1b6e89" stroke="#707070" stroke-width="1">
+      <rect width="348.5" height="112.512" stroke="none"/>
+      <rect x="0.5" y="0.5" width="347.5" height="111.512" fill="none"/>
+    </g>
+    <text id="PORTFOLIE" transform="translate(63.314 31.64)" fill="#fff" font-size="40" font-family="CourierNewPSMT, Courier New"><tspan x="0" y="33">PORTFOLIE</tspan></text>
+  </g>
+</svg>
