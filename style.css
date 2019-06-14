@@ -14,7 +14,8 @@ img {
 }
 
 a {
-    font-family: 'Noto Serif KR', serif
+    font-family: 'Noto Serif KR', serif;
+    text-decoration: none;
 }
 
 h1 {
@@ -57,6 +58,7 @@ h1 {
     justify-content: space-between;
     flex-direction: column;
     width: 100%;
+
 
 }
 
@@ -124,8 +126,21 @@ nav {
     background-color: #15647A;
 }
 
+#genvej h3 {
+    padding-top: 1vw;
+}
+
+#genvej .boks1 {
+    filter: opacity(65%);
+}
+
+#genvej .boks1:hover {
+    filter: none;
+}
+
 .boks1 {
-    background-image: url(billeder/Udklip.PNG);
+    background-image: url(billeder/popart.jpg);
+    background-size: 100%;
     border: 6px solid #799EAC;
     width: 70vw;
     height: 70vw;
@@ -149,8 +164,19 @@ nav {
     margin: auto;
 }
 
+#genvej .boks2 {
+    filter: opacity(65%);
+}
+
+#genvej .boks2:hover {
+    filter: none;
+}
+
 .boks2 {
-    background-color: white;
+    background-image: url(billeder/startskaerm.jpg);
+    background-repeat: no-repeat;
+
+    background-size: 100%;
     border: 6px solid #799EAC;
     width: 70vw;
     height: 70vw;
@@ -172,7 +198,9 @@ nav {
 }
 
 .boks3 {
-    background-color: white;
+    background-image: url(billeder/video.PNG);
+    background-repeat: no-repeat;
+    background-size: 100%;
     border: 6px solid #799EAC;
     width: 70vw;
     height: 70vw;
@@ -183,7 +211,8 @@ nav {
 }
 
 .boks4 {
-    background-color: white;
+    background-image: url(billeder/koos.PNG);
+    background-size: 100%;
     border: 6px solid #799EAC;
     width: 70vw;
     height: 70vw;
@@ -192,6 +221,22 @@ nav {
     text-align: center;
 
 
+}
+
+#genvej .boks4 {
+    filter: opacity(65%);
+}
+
+#genvej .boks4:hover {
+    filter: none;
+}
+
+#genvej .boks3 {
+    filter: opacity(65%);
+}
+
+#genvej .boks3:hover {
+    filter: none;
 }
 
 #genvej .sectionwrapper {
@@ -374,76 +419,6 @@ footer img {
 
 }
 
-@media only screen and (min-width: 600px) {
-
-    #menu {
-
-        height: 3vw;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-
-
-
-
-    }
-
-    #menu a {
-        color: white;
-        text-decoration: none;
-        font-size: 1.5rem;
-        width: 100%;
-        padding-top: 0vw;
-        padding-bottom: 0vw;
-        text-align: center;
-
-
-
-
-    }
-
-    nav {
-
-        height: 3vw;
-
-
-
-    }
-
-    #menu a:hover {
-        color: #15647A;
-        background-color: #FD874A;
-        height: 3vw;
-        padding-top: 1.5vw;
-        justify-content: center;
-    }
-
-    .hidden {
-        /*    display: none;*/
-        /*    transform: scale(0);*/
-        transform: translateX(-100%);
-        opacity: 0;
-    }
-
-    #menuknap {
-        display: inline-block;
-    }
-
-
-
-    #menuknap {
-        display: none;
-    }
-
-    #menu.hidden {
-        transform: translateX(0);
-        opacity: 1;
-    }
-
-    #menu li {
-        display: inline-block;
-    }
-}
 
 @media only screen and (min-width: 700px) {
     #forside .foride_billede {
@@ -454,6 +429,7 @@ footer img {
         background-size: 100%;
         max-width: none;
         max-height: 60vw;
+
     }
 
 
@@ -515,6 +491,77 @@ footer img {
     }
 
 }
+
+
+@media only screen and (min-width: 800px) {
+
+    #menu {
+
+        height: 3vw;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        position: sticky;
+        top: 0;
+
+    }
+
+    #menu a {
+        color: white;
+        text-decoration: none;
+        font-size: 1.5rem;
+        width: 100%;
+        padding-top: 0vw;
+        padding-bottom: 0vw;
+        text-align: center;
+
+
+
+
+    }
+
+    nav {
+
+        height: 3vw;
+
+
+    }
+
+    #menu a:hover {
+        color: #15647A;
+        background-color: #FD874A;
+        height: 3vw;
+        padding-top: 1.5vw;
+        justify-content: center;
+    }
+
+    .hidden {
+        /*    display: none;*/
+        /*    transform: scale(0);*/
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+
+    #menuknap {
+        display: inline-block;
+    }
+
+
+
+    #menuknap {
+        display: none;
+    }
+
+    #menu.hidden {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    #menu li {
+        display: inline-block;
+    }
+}
+
 
 @media only screen and (min-width: 900px) {
     #ui img {
