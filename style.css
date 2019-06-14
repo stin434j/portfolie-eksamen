@@ -289,11 +289,55 @@ h1 {
 
 }
 
+#om .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
 
+}
+
+
+#om .col {
+    flex-grow: 1;
+    flex-basis: 450px;
+    padding: 10px;
+    margin: 0 15px;
+
+
+
+
+}
+
+#interesser .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+
+#interesser .col {
+    flex-grow: 1;
+    flex-basis: 450px;
+    padding: 10px;
+    margin: 0 15px;
+}
 
 
 #cv_afsnit {
     background-color: #FD874A;
+}
+
+
+
+#cv_afsnit .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+#cv_afsnit .col {
+    flex-grow: 1;
+    flex-basis: 450px;
+    padding: 10px;
+    margin: 0 15px;
 }
 
 #box {
