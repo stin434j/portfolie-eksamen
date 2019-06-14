@@ -1,7 +1,6 @@
 nav {
     position: sticky;
     top: 0;
-    opacity: 1;
 }
 
 body {
@@ -84,15 +83,27 @@ li {
 
 }
 
-#forside .forside_knap {
 
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 100vw;
-    height: 100vh;
-    background-size: 270px 100px;
-    position: absolute;
-    top: 52vw;
+#forsidemenu {
+    height: 3vw;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: #4EBFBF;
+    padding: 1.4vw;
+    padding-left: 50vw;
+    padding-right: 5vw;
+
+}
+
+#forsidemenu a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    width: 100%;
+    text-align: end;
+
 
 }
 
@@ -655,6 +666,13 @@ footer img {
     #menu li {
         display: inline-block;
     }
+
+    #forsidemenu a:hover {
+        color: #15647A;
+        height: 3vw;
+        padding-top: 1.5vw;
+    }
+
 }
 
 
@@ -668,6 +686,14 @@ footer img {
     #ui img {
         width: 4vw;
 
+
+    }
+
+    #forsidemenu {
+
+        padding: 0vw;
+        padding-left: 78vw;
+        padding-right: 5vw;
 
     }
 }
