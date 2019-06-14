@@ -20,12 +20,57 @@ img {
 }
 
 a {
-    font-family: 'Noto Serif KR', serif;
+    font-family: 'CourierNew';
     text-decoration: none;
 }
 
 h1 {
     font-size: 2rem;
+    font-family: 'CourierNew';
+
+}
+
+h2 {
+    font-family: 'CourierNew';
+
+}
+
+h3 {
+    font-family: 'CourierNew';
+
+}
+
+p {
+    font-family: 'Lucida';
+    line-height: 21px;
+
+}
+
+li {
+    font-family: 'Lucida';
+    line-height: 21px;
+
+}
+
+@font-face {
+    font-family: 'CourierNewBold';
+    src: url('font/CourierNewPS-BoldMT.woff2') format('woff2'),
+        url('font/CourierNewPS-BoldMT.woff') format('woff');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CourierNew';
+    src: url('font/CourierNewPSMT.woff2') format('woff2'),
+        url('font/CourierNewPSMT.woff') format('woff');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lucida';
+    src: url('font/LucidaBright.woff2') format('woff2'),
+        url('font/LucidaBright.woff') format('woff');
+    font-style: normal;
 }
 
 #forside .foride_billede {
