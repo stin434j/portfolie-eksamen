@@ -1,16 +1,24 @@
 nav {
     position: sticky;
     top: 0;
+    opacity: 1;
 }
 
 body {
     margin: 0;
 
+
 }
 
+section {
+    padding: 4vw;
+}
 
 img {
     width: 100%;
+    border: 5px solid white;
+    max-width: 550px;
+
 }
 
 .txt {
@@ -90,15 +98,15 @@ li {
     align-items: center;
     position: sticky;
     top: 0;
-    background-color: #4EBFBF;
     padding: 1.4vw;
     padding-left: 50vw;
     padding-right: 5vw;
+    background-color: white;
 
 }
 
 #forsidemenu a {
-    color: white;
+    color: #15647A;
     text-decoration: none;
     font-size: 1.5rem;
     width: 100%;
@@ -324,10 +332,11 @@ nav {
 }
 
 #om .image {
+    /*
     margin-left: 3vw;
     margin-right: 3vw;
+*/
 }
-
 
 #om h1 {
     color: white;
@@ -357,9 +366,6 @@ h1 {
     flex-basis: 450px;
     padding: 10px;
     margin: 0 15px;
-
-
-
 
 }
 
@@ -499,6 +505,7 @@ span:after {
 
 #ui img {
     width: 8vw;
+    border: none;
 }
 
 #ui {
@@ -517,16 +524,37 @@ footer {
     background-color: #403833;
     display: flex;
     justify-content: center;
+
 }
 
 footer img {
     width: 40vw;
-
+    border: none;
 
 }
 
 
 @media only screen and (min-width: 700px) {
+    img {
+        max-width: 550px;
+
+    }
+
+    .txt {
+        margin-right: 2vw;
+        margin-left: 2vw;
+        padding-top: 0vw;
+        margin-top: 0;
+    }
+
+    #om,
+    h1 {
+        padding-top: 0vw;
+
+    }
+
+
+
     #forside .foride_billede {
 
         background-image: url(billeder/forsidebillede.jpg);
@@ -534,7 +562,9 @@ footer img {
         height: 100vh;
         background-size: 100%;
         max-width: none;
-        max-height: 60vw;
+        max-height: 42vw;
+        background-color: #15647A;
+
 
     }
 
@@ -543,7 +573,6 @@ footer img {
         width: 20vw;
         height: 20vw;
         margin-top: 2vw;
-
 
     }
 
@@ -683,11 +712,7 @@ footer img {
 }
 
 @media only screen and (min-width: 1100px) {
-    #ui img {
-        width: 4vw;
-
-
-    }
+    #ui img {}
 
     #forsidemenu {
 
