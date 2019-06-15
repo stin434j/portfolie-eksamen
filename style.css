@@ -382,6 +382,9 @@ h1 {
     margin: 0 15px;
 }
 
+#interesser img {
+    border: 5px solid #15647A;
+}
 
 #cv_afsnit {
     background-color: #FD874A;
@@ -623,6 +626,7 @@ footer img {
     #logo {
         width: 26vw;
         margin-top: 0vw;
+        padding: 1vw;
     }
 
 }
