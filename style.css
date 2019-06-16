@@ -10,8 +10,10 @@ body {
 
 }
 
-section {
-    padding: 4vw;
+.sectionwrapper {
+    padding-left: 4vw;
+    padding-right: 4vw;
+    padding-top: 2vw;
 }
 
 img {
@@ -201,12 +203,10 @@ nav {
 }
 
 #genvej .boks1 {
-    filter: opacity(65%);
+    filter: opacity(85%);
 }
 
-#genvej .boks1:hover {
-    filter: none;
-}
+
 
 .boks1 {
     background-image: url(billeder/popart.jpg);
@@ -235,12 +235,10 @@ nav {
 }
 
 #genvej .boks2 {
-    filter: opacity(65%);
+    filter: opacity(85%);
 }
 
-#genvej .boks2:hover {
-    filter: none;
-}
+
 
 .boks2 {
     background-image: url(billeder/startskaerm.jpg);
@@ -294,20 +292,15 @@ nav {
 }
 
 #genvej .boks4 {
-    filter: opacity(65%);
+    filter: opacity(85%);
 }
 
-#genvej .boks4:hover {
-    filter: none;
-}
 
 #genvej .boks3 {
-    filter: opacity(65%);
+    filter: opacity(85%);
 }
 
-#genvej .boks3:hover {
-    filter: none;
-}
+
 
 #genvej .sectionwrapper {
     display: flex;
@@ -550,6 +543,38 @@ footer img {
         margin-top: 0;
     }
 
+    #genvej .boks1 {
+        filter: opacity(65%);
+    }
+
+    #genvej .boks1:hover {
+        filter: none;
+    }
+
+    #genvej .boks2 {
+        filter: opacity(65%);
+    }
+
+    #genvej .boks2:hover {
+        filter: none;
+    }
+
+    #genvej .boks4 {
+        filter: opacity(65%);
+    }
+
+    #genvej .boks4:hover {
+        filter: none;
+    }
+
+    #genvej .boks3 {
+        filter: opacity(65%);
+    }
+
+    #genvej .boks3:hover {
+        filter: none;
+    }
+
     #om,
     h1 {
         padding-top: 0vw;
@@ -575,7 +600,7 @@ footer img {
     .boks1 {
         width: 20vw;
         height: 20vw;
-        margin-top: 2vw;
+        margin-top: 0vw;
 
     }
 
