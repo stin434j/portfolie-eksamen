@@ -514,7 +514,94 @@ span:after {
     padding-top: 5vw;
 }
 
+#web {
+    background-color: #15647A;
+    padding-top: 3vw;
+}
 
+
+#web h1 {
+    color: white;
+
+}
+
+
+#web p {
+    color: white;
+}
+
+#web,
+h1 {
+    padding-top: 2vw;
+
+}
+
+#web p a {
+    color: white;
+    text-decoration: underline;
+}
+
+
+
+#web .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+#web .col {
+    flex-grow: 1;
+    flex-basis: 450px;
+    padding: 10px;
+    margin: 0 15px;
+
+}
+
+#stilart p a {
+    color: black;
+    text-decoration: underline;
+}
+
+#stilart .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+
+#stilart .col {
+    flex-grow: 1;
+    flex-basis: 450px;
+    padding: 10px;
+    margin: 0 15px;
+}
+
+#stilart img {
+    border: 5px solid #15647A;
+}
+
+#ovelser {
+    background-color: #FD874A;
+}
+
+
+
+#ovelser .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+#ovelser .col {
+    flex-grow: 1;
+    flex-basis: 450px;
+    padding: 10px;
+    margin: 0 15px;
+}
+
+#ovelser a {
+    color: white;
+}
 
 footer {
     background-color: #403833;
@@ -654,6 +741,13 @@ footer img {
         padding: 1vw;
     }
 
+    #web p a:hover {
+        color: #FD874A;
+    }
+
+    #stilart p a:hover {
+        color: #FD874A;
+    }
 }
 
 
